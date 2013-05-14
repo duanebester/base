@@ -1,0 +1,195 @@
+@font-face {
+    font-family: ubuntu-light;
+    src: url('/classpath/fonts/Ubuntu-Light.ttf') format('opentype')
+}
+
+body {
+	/*background-image: url('/classpath/images/bg-light.png');*/
+	background-color: rgba(0, 146, 200, 1);
+}
+
+hr {
+	background: #e5e5e5;
+}
+
+nav {
+	background-color: rgba(250, 250, 250, 1);
+	/*box-shadow: 0 0 3px rgba(0,0,0,.35);*/
+}
+
+nav ul {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+nav li {
+	float: left; 
+}
+nav li a,
+nav li span {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(0, 146, 200, 1);
+	border-right: 1px solid rgba(0, 146, 200, 0.12); 
+}
+
+h1, h2 {
+  /*color: rgb(162, 162, 162);*/
+  color: #ffffff;
+  font-family: ubuntu-light,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 10px;
+}
+
+.colborder {
+	border-right: 1px solid #e5e5e5;
+}
+
+.edit_error_class {
+  display: block;
+  color: red;
+}
+
+/*
+ * Sidebar
+ */
+.sidebar ul {
+	margin:0;
+	padding:0;
+	display: block;
+	position: relative;
+	list-style-type: disc;
+	float: right;
+}
+	 
+
+.sidebar ul li {
+	height: 60px;
+	line-height: 30px;
+	/*border:1px solid #e5e5e5;*/
+	position: relative;
+	float: left;
+	list-style: none !important;
+	display: list-item;
+}
+
+/*
+.sidebar ul li:first-child {
+	border-radius: 6px 6px 0 0;
+}
+
+.sidebar ul li:last-child {
+	border-radius: 0 0 6px 6px ;
+	border-bottom: 1px solid #e5e5e5;
+}
+*/
+.sidebar ul li a {
+	display:block;
+	padding:17px 15px 10px;
+	text-indent:5px;
+	text-decoration:none;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin: 1px 0 0 0;
+	color: rgb(0, 128, 255);
+	font-family: ubuntu-light,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	max-height: 34px;
+}
+
+.sidebar ul li span {
+	display:block;
+	padding:17px 15px 10px;
+	text-indent:5px;
+	text-decoration:none;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin: 1px 0 0 0;
+	color: rgb(0, 128, 255);
+	font-family: ubuntu-light,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	max-height: 34px;
+}
+
+/*
+ * Main Content
+ */
+ 
+ #main {
+ 	padding: 20px 20px;
+ 	border: none;
+ 	/*background-image: url('/classpath/images/bg-light.png');*/
+ 	background-color: rgba(250, 250, 250, 1);
+ 	/*box-shadow: 0 0 3px rgba(0,0,0,.35);*/
+ }
+  #main p {
+    color: rgb(117, 117, 115);
+ 	font-family: ubuntu-light,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+ 
+ .banner {
+ 	padding: 10px 0 10px 0;
+ }
+ 
+ .full {
+    width: 100%;
+ }
+ 
+ .container h2 {
+ 	color: rgba(0, 146, 200, 1);
+ }
+ 
+input, button {
+ 	display: block;
+ 	padding: 6px;
+ 	border: none !important;
+ 	margin: 0.5em 0 !important;
+ 	border: 1px solid rgb(0, 146, 200) !important;
+ 	width: 200px;
+ }
+ 
+ ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    rgb(0, 146, 200);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    rgb(0, 146, 200);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    rgb(0, 146, 200);
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    rgb(0, 146, 200);
+}
+
+input[type="submit"], button {
+	background-color: rgb(0, 146, 200);
+	color: #fff;
+	width: 214px;
+}
+
+form {
+	padding: 10px;
+}
+ 
+/* Messages */
+#lift__noticesContainer__ ul {
+	list-style-type: none;
+	color: #fff;
+	width: 950px;
+	margin: 0 auto;
+}
+#lift__noticesContainer__ li {
+	margin-top: 20px;
+	font-weight: bold;
+}
+#lift__noticesContainer___error {
+	height: 60px;
+	background-color: rgb(220, 0, 0);
+	border-top: 10px solid #fff
+}
+
+ 
+ 
+ 
+ 

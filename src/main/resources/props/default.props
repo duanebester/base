@@ -1,0 +1,5 @@
+# Properties in this file will be read when running in dev mode
+mysql.db.driver=com.mysql.jdbc.Driver
+mysql.db.url=jdbc:mysql://localhost:3306/socialterminal
+mysql.db.user=socadmin
+mysql.db.password=qwerty
