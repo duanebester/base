@@ -2,10 +2,15 @@
     font-family: ubuntu-light;
     src: url('/classpath/fonts/Ubuntu-Light.ttf') format('opentype')
 }
+@font-face {
+    font-family: ubuntu-regular;
+    src: url('/classpath/fonts/Ubuntu-Regular.ttf') format('opentype')
+}
 
 body {
 	/*background-image: url('/classpath/images/bg-light.png');*/
 	background-color: rgba(0, 146, 200, 1);
+	font-family: ubuntu-regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 hr {
@@ -124,8 +129,8 @@ h1, h2 {
  	/*box-shadow: 0 0 3px rgba(0,0,0,.35);*/
  }
   #main p {
-    color: rgb(117, 117, 115);
- 	font-family: ubuntu-light,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(0, 146, 200);
+ 	font-family: ubuntu-regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
  }
  
  .banner {
@@ -134,6 +139,10 @@ h1, h2 {
  
  .full {
     width: 100%;
+ }
+ 
+ .container {
+ 	color: rgb(0, 146, 200);
  }
  
  .container h2 {

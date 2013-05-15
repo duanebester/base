@@ -73,7 +73,7 @@ class Boot {
       // more complex because this menu allows anything in the
       // /static path to be visible
       Menu(Loc("Static", Link(List("static"), true, "/static/index"), 
-	       "Static Content")),
+	       "Static")),
 	       
 	  Menu(logout)
 	       
