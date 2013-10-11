@@ -1,0 +1,42 @@
+05-14 18:15:59 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+Select
+  users8.id as users8_id,
+  users8.email as users8_email,
+  users8.password_slt as users8_password_slt,
+  users8.password_pw as users8_password_pw,
+  users8.lastName as users8_lastName,
+  users8.firstName as users8_firstName,
+  users8.userName as users8_userName
+From
+  users users8
+Where
+  (users8.email = ?) [42102-167]
+05-14 18:16:27 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+Select
+  users8.id as users8_id,
+  users8.email as users8_email,
+  users8.password_slt as users8_password_slt,
+  users8.password_pw as users8_password_pw,
+  users8.lastName as users8_lastName,
+  users8.firstName as users8_firstName,
+  users8.userName as users8_userName
+From
+  users users8
+Where
+  (users8.email = ?) [42102-167]
+05-14 18:16:36 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+Select
+  users8.id as users8_id,
+  users8.email as users8_email,
+  users8.password_slt as users8_password_slt,
+  users8.password_pw as users8_password_pw,
+  users8.lastName as users8_lastName,
+  users8.firstName as users8_firstName,
+  users8.userName as users8_userName
+From
+  users users8
+Where
+  (users8.email = ?) [42102-167]
